@@ -87,8 +87,8 @@ As aforementioned, we provide model checkpoints for all the results. Our code li
 python /home/CRNet/main.py \
   --data-dir '/home/COST2100' \
   --scenario 'in' \
-  --pretrained './checkpoints/in_04' \  # Pretrained model loading
-  --evaluate \  # Inference mode
+  --pretrained './checkpoints/in_04' \
+  --evaluate \
   --batch-size 200 \
   --workers 0 \
   --cr 4 \
